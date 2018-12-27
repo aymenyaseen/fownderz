@@ -20,6 +20,7 @@ import { ColorPaletteComponent } from './business/rebranding/color-palette/color
 import { WebUpdateComponent } from './business/rebranding/web-update/web-update.component';
 import { GraphicDesignComponent } from './business/rebranding/graphic-design/graphic-design.component';
 import { CustomDesignComponent } from './business/rebranding/custom-design/custom-design.component';
+import { HomeComponent } from './home/home.component';
 
 
 const routes: Routes = [
@@ -43,6 +44,7 @@ const routes: Routes = [
 { path: 'web-update', component: WebUpdateComponent },
 { path: 'graphic-design', component: GraphicDesignComponent },
 { path: 'custom-design', component: CustomDesignComponent },
+{ path: '', component: HomeComponent }
 ];
 
 @NgModule({
